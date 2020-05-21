@@ -21,4 +21,15 @@ publishing {
       from(components["java"])
     }
   }
+
+  repositories {
+    maven {
+      name = "GitHubPackages"
+      url = uri("https://maven.pkg.github.com/thepwagner/test-java")
+      credentials {
+        username = "thepwagner"
+        password = System.getenv("GITHUB_TOKEN")
+      }
+    }
+  }
 }
