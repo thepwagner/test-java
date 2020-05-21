@@ -16,7 +16,7 @@ publishing {
     create<MavenPublication>("maven") {
       groupId = "com.github.thepwagner"
       artifactId = "test-java"
-      version = "1.0"
+      version = "1.1"
 
       from(components["java"])
     }

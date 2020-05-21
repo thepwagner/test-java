@@ -1,5 +1,5 @@
 class Value {
   companion object {
-    const val VALUE = "test"
+    const val VALUE = "updated"
   }
 }
